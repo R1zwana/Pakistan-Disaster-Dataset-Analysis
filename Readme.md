@@ -7,6 +7,20 @@ This project analyzes disaster trends in Pakistan and visualizes key insights us
 - Disaster types and their impacts
 - Regional analysis
 - Interactive charts
+- Geographic distribution map
 
 ## Technologies
 Python, Pandas, Streamlit, Matplotlib, Seaborn
+
+## Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run analyze.py
+```
+
+## Deploy on Streamlit Cloud
+1. Push this repo to GitHub
+2. Go to [share.streamlit.io](https://share.streamlit.io)
+3. Connect your GitHub account
+4. Select this repository, branch `main`, and main file `analyze.py`
+5. Click **Deploy**
